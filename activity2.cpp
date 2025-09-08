@@ -13,10 +13,10 @@ getline (cin, FullNameee);
 cout << “Enter your Course, Year and Section: “;
 getline (cin, CourseYearSeccc);
 
-cout << “Enter your Birthday: “;
+cout << “Enter your Place: “;
 getline (cin, Placeee);
 
-cout << “Enter your Motto/Motivation in life;
+cout << “Enter your Hobbies in life;
 getline (cin, Hobbies);
 
 //output
@@ -25,4 +25,5 @@ cout << “Hi! I’m “ << FullNameee << “of “ << CourseYearSeccc << “. W
 cout << “ I lived at  “ << Placeee << “. And my Hobbies in life is “ << Hobbies << “.” endl;
 
 return 0;
+
 }
